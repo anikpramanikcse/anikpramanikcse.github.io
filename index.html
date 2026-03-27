@@ -9,274 +9,170 @@
 </head>
 <body>
 
-<div class="site-wrapper">
+<div class="page-layout">
 
-  <!-- ===== HEADER ===== -->
-  <header class="site-header">
-    <div class="header-photo">
-      <img src="profile_pic.jpg" alt="Anik Pramanik" />
-    </div>
-    <div class="header-info">
-      <h1>Anik Pramanik</h1>
-      <p class="title">Ph.D. Candidate, Computer Science &middot; New Jersey Institute of Technology</p>
-      <div class="header-meta">
-        <span>&#9993; <a href="mailto:ap2645@njit.edu">ap2645@njit.edu</a></span>
-        <span>&#128205; Newark, NJ</span>
+  <!-- ===== LEFT SIDEBAR ===== -->
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+      <img class="profile-photo" src="profile_pic.jpg" alt="Anik Pramanik" />
+      <h1 class="sidebar-name">Anik Pramanik</h1>
+      <p class="sidebar-title">Ph.D. Candidate<br>Computer Science<br>NJIT</p>
+      <div class="sidebar-meta">
+        <a href="mailto:ap2645@njit.edu">ap2645@njit.edu</a>
+        <span>Newark, NJ</span>
       </div>
-      <div class="header-links">
+      <div class="sidebar-links">
         <a href="https://sites.google.com/view/anikpramanik/" target="_blank" rel="noopener">Website</a>
         <a href="https://scholar.google.com/citations?user=cSsd-LcAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
         <a href="https://www.linkedin.com/in/anik-pramanik/" target="_blank" rel="noopener">LinkedIn</a>
         <a href="https://github.com/anikpramanikcse" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
-  </header>
+  </aside>
 
-  <!-- ===== NAV ===== -->
-  <nav class="site-nav" aria-label="Page sections">
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#publications">Publications</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#service">Service</a></li>
-    </ul>
-  </nav>
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
 
-  <!-- ===== ABOUT ===== -->
-  <section class="cv-section" id="about">
-    <h2>About</h2>
-    <p class="summary-text">
-      I am a Ph.D. candidate in Computer Science at the New Jersey Institute of Technology (NJIT),
-      with 4+ years of research experience in machine learning and artificial intelligence.
-      My work spans <strong>federated learning</strong>, <strong>large language models</strong>,
-      LLM fine-tuning, and combinatorial optimization algorithms. I have published at top-tier
-      venues including <strong>ICLR</strong> and <strong>AAAI</strong>.
-    </p>
-  </section>
-
-  <!-- ===== EDUCATION ===== -->
-  <section class="cv-section" id="education">
-    <h2>Education</h2>
-
-    <div class="edu-entry">
-      <div class="edu-left">
-        <div class="inst">New Jersey Institute of Technology (NJIT) &mdash; Newark, NJ</div>
-        <div class="degree">Ph.D. in Computer Science</div>
-      </div>
-      <div class="edu-right">Sep 2021 &ndash; Present</div>
-    </div>
-
-    <div class="edu-entry">
-      <div class="edu-left">
-        <div class="inst">Khulna University of Engineering &amp; Technology &mdash; Bangladesh</div>
-        <div class="degree">B.Sc. in Computer Science and Engineering &middot; CGPA: 3.45 / 4.00</div>
-      </div>
-      <div class="edu-right">Mar 2016 &ndash; Mar 2020</div>
-    </div>
-  </section>
-
-  <!-- ===== PUBLICATIONS ===== -->
-  <section class="cv-section" id="publications">
-    <h2>Selected Publications</h2>
-    <ol class="pub-list">
-
-      <li class="pub-item">
-        <span class="pub-num">[1]</span>
-        <div class="pub-body">
-          <div class="pub-title">FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments</div>
-          <div class="pub-authors"><strong>A. Pramanik</strong>, M. Kantarcioglu, V. Oria, S. Sharma</div>
-          <div class="pub-venue">
-            <span class="venue-badge">ICLR 2026</span>
-            International Conference on Learning Representations, 2026
-          </div>
-          <a class="pub-pdf" href="15820_FedDAG_Clustered_Federat%20(12).pdf" target="_blank" rel="noopener">&#128196; PDF</a>
-        </div>
-      </li>
-
-      <li class="pub-item">
-        <span class="pub-num">[2]</span>
-        <div class="pub-body">
-          <div class="pub-title">Spark: Smart Building Fire Prediction and Risk Analysis</div>
-          <div class="pub-authors"><strong>A. Pramanik</strong>, M. Kumar, N. Panwar, L. V. Potts, J. Shah, S. Sharma</div>
-          <div class="pub-venue">
-            <span class="venue-badge">IEEE NCA 2025</span>
-            IEEE International Symposium on Network Computing and Applications, 2025
-          </div>
-          <a class="pub-pdf" href="Spark_Smart_Building_Fire_Prediction_And_Risk_Analysis%20(1).pdf" target="_blank" rel="noopener">&#128196; PDF</a>
-        </div>
-      </li>
-
-      <li class="pub-item">
-        <span class="pub-num">[3]</span>
-        <div class="pub-body">
-          <div class="pub-title">Equity Promotion in Public Transportation</div>
-          <div class="pub-authors"><strong>A. Pramanik</strong>, P. Xu, Y. Xu</div>
-          <div class="pub-venue">
-            <span class="venue-badge">AAAI 2023</span>
-            AAAI Conference on Artificial Intelligence, 2023
-          </div>
-          <a class="pub-pdf" href="26403-Article%20Text-30466-1-2-20230626%20(3).pdf" target="_blank" rel="noopener">&#128196; PDF</a>
-        </div>
-      </li>
-
-    </ol>
-  </section>
-
-  <!-- ===== EXPERIENCE ===== -->
-  <section class="cv-section" id="experience">
-    <h2>Work Experience</h2>
-
-    <div class="exp-entry">
-      <div class="exp-header">
-        <div>
-          <span class="exp-role">Doctoral Research Assistant</span>
-          <span class="exp-org"> &mdash; NJIT</span>
-        </div>
-        <div class="exp-date">2021 &ndash; Present</div>
-      </div>
-      <ul class="exp-bullets">
-        <li>
-          Developed multiple LLM-based Text-to-SQL pipelines using Qwen-7B, OSS-20B, and OSS-120B on
-          multi-GPU HPC clusters; resolved database and query ambiguity, decomposed NL queries, and
-          applied prompt optimization and model fine-tuning to achieve ~3% accuracy improvement on BIRD
-          over existing benchmarks.
-        </li>
-        <li>
-          Designed and implemented <strong>FedDAG</strong>, a clustered federated learning framework in PyTorch
-          across 8 benchmark datasets with 4+ non-IID environments, achieving up to 4% accuracy gain
-          over state-of-the-art; published at <strong>ICLR 2026</strong>.
-        </li>
-        <li>
-          Engineered a dual-encoder architecture with cross-cluster representation sharing, breaking
-          traditional information silos; integrated data and gradient similarity via MLP; compressed
-          gradients (1&ndash;2% sparsification), reducing communication overhead by ~500&times;.
-        </li>
-        <li>
-          Developed <strong>SPARK</strong>, a real-time fire prediction system fusing multimodal sensor data
-          (temperature, smoke, CO/CO&#8322;, drones, human input) over a graph-diffusion model, achieving
-          96% prediction accuracy on simulated 3- and 10-story smart buildings using NIST FDS;
-          published at <strong>IEEE NCA 2025</strong>.
-        </li>
-        <li>
-          Formulated a budget-constrained optimization framework using linear programming and bipartite
-          matching to maximize public transportation equity across 17,875 households, proving an optimal
-          1&minus;1/<em>e</em> approximation ratio; published at <strong>AAAI 2023</strong>.
-        </li>
+    <!-- Nav at top of content -->
+    <nav class="site-nav" aria-label="Page sections">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#projects">Projects</a></li>
       </ul>
-    </div>
+    </nav>
 
-    <div class="exp-entry">
-      <div class="exp-header">
-        <div>
-          <span class="exp-role">Graduate Teaching Assistant</span>
-          <span class="exp-org"> &mdash; NJIT</span>
+    <!-- ===== ABOUT ===== -->
+    <section class="cv-section" id="about">
+      <h2>About</h2>
+      <p class="summary-text">
+        I am a Ph.D. candidate in Computer Science at the New Jersey Institute of Technology (NJIT),
+        with 4+ years of research experience in machine learning and artificial intelligence.
+        My work spans <strong>federated learning</strong>, <strong>large language models</strong>,
+        LLM fine-tuning, and combinatorial optimization algorithms. I have published at top-tier
+        venues including <strong>ICLR</strong> and <strong>AAAI</strong>.
+      </p>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section class="cv-section" id="education">
+      <h2>Education</h2>
+
+      <div class="edu-entry">
+        <div class="edu-left">
+          <div class="inst">New Jersey Institute of Technology (NJIT) &mdash; Newark, NJ</div>
+          <div class="degree">Ph.D. in Computer Science</div>
         </div>
-        <div class="exp-date">2021 &ndash; Present</div>
+        <div class="edu-right">Sep 2021 &ndash; Present</div>
       </div>
-      <ul class="exp-bullets">
-        <li>
-          Supported undergraduate and graduate courses including AI, DBMS, DSA, and introductory
-          programming by conducting lab sessions, grading assignments and exams, and holding office hours.
+
+      <div class="edu-entry">
+        <div class="edu-left">
+          <div class="inst">Khulna University of Engineering &amp; Technology &mdash; Bangladesh</div>
+          <div class="degree">B.Sc. in Computer Science and Engineering</div>
+        </div>
+        <div class="edu-right">Mar 2016 &ndash; Mar 2020</div>
+      </div>
+    </section>
+
+    <!-- ===== PUBLICATIONS ===== -->
+    <section class="cv-section" id="publications">
+      <h2>Selected Publications</h2>
+      <ol class="pub-list">
+
+        <li class="pub-item">
+          <span class="pub-num">[1]</span>
+          <div class="pub-body">
+            <div class="pub-title">FedDAG: Clustered Federated Learning via Global Data and Gradient Integration for Heterogeneous Environments</div>
+            <div class="pub-authors"><strong>A. Pramanik</strong>, M. Kantarcioglu, V. Oria, S. Sharma</div>
+            <div class="pub-venue">
+              <span class="venue-badge">ICLR 2026</span>
+              International Conference on Learning Representations, 2026
+            </div>
+            <a class="pub-pdf" href="15820_FedDAG_Clustered_Federat%20(12).pdf" target="_blank" rel="noopener">&#128196; PDF</a>
+          </div>
         </li>
-      </ul>
-    </div>
 
-  </section>
+        <li class="pub-item">
+          <span class="pub-num">[2]</span>
+          <div class="pub-body">
+            <div class="pub-title">Spark: Smart Building Fire Prediction and Risk Analysis</div>
+            <div class="pub-authors"><strong>A. Pramanik</strong>, M. Kumar, N. Panwar, L. V. Potts, J. Shah, S. Sharma</div>
+            <div class="pub-venue">
+              <span class="venue-badge">IEEE NCA 2025</span>
+              IEEE International Symposium on Network Computing and Applications, 2025
+            </div>
+            <a class="pub-pdf" href="Spark_Smart_Building_Fire_Prediction_And_Risk_Analysis%20(1).pdf" target="_blank" rel="noopener">&#128196; PDF</a>
+          </div>
+        </li>
 
-  <!-- ===== PROJECTS ===== -->
-  <section class="cv-section" id="projects">
-    <h2>Selected Projects</h2>
-    <div class="project-grid">
+        <li class="pub-item">
+          <span class="pub-num">[3]</span>
+          <div class="pub-body">
+            <div class="pub-title">Equity Promotion in Public Transportation</div>
+            <div class="pub-authors"><strong>A. Pramanik</strong>, P. Xu, Y. Xu</div>
+            <div class="pub-venue">
+              <span class="venue-badge">AAAI 2023</span>
+              AAAI Conference on Artificial Intelligence, 2023
+            </div>
+            <a class="pub-pdf" href="26403-Article%20Text-30466-1-2-20230626%20(3).pdf" target="_blank" rel="noopener">&#128196; PDF</a>
+          </div>
+        </li>
 
-      <div class="project-card">
-        <h3>NL2SQL Using LLMs</h3>
-        <p>
-          Text-to-SQL system resolving database and query ambiguity by decomposing SQL generation
-          into subtasks. Deployed on GPU-based HPC with open-source LLMs (Qwen-7B, OSS-20B,
-          OSS-120B) via Hugging Face Transformers; uses custom prompt engineering and model fine-tuning.
-        </p>
+      </ol>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="cv-section" id="projects">
+      <h2>Selected Projects</h2>
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>NL2SQL Using LLMs</h3>
+          <p>
+            Text-to-SQL system resolving database and query ambiguity by decomposing SQL generation
+            into subtasks. Deployed on GPU-based HPC with open-source LLMs (Qwen-7B, OSS-20B,
+            OSS-120B) via Hugging Face Transformers; uses custom prompt engineering and model fine-tuning.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Federated Learning in Heterogeneous Environments</h3>
+          <p>
+            Clustered FL pipeline in PyTorch with non-IID data; incorporates SVD-based feature
+            extraction, entropy-optimized MLP, dual-encoder with cross-cluster representation sharing,
+            hierarchical clustering with adaptive thresholds, and a novel federated-aware evaluation metric.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Transportation Equity Optimization</h3>
+          <p>
+            Budget-allocation optimizer using LP-based rounding and bipartite matching to maximize
+            equity across 5 demographic groups in Chicago; integrates ride-hailing and bus-line programs
+            (17,875 households, 649 bus stops, 20 candidate routes).
+          </p>
+        </div>
+
+        <div class="project-card">
+          <h3>Smart Building Fire Risk Analytics</h3>
+          <p>
+            Sensor-driven graph-diffusion framework combining static, dynamic (drone), and human
+            sensor streams with weighted multimodal fusion; builds room adjacency graphs modeling
+            structural and HVAC connectivity; applies k-means for real-time risk-zone classification.
+          </p>
+        </div>
+
       </div>
+    </section>
 
-      <div class="project-card">
-        <h3>Federated Learning in Heterogeneous Environments</h3>
-        <p>
-          Clustered FL pipeline in PyTorch with non-IID data; incorporates SVD-based feature
-          extraction, entropy-optimized MLP, dual-encoder with cross-cluster representation sharing,
-          hierarchical clustering with adaptive thresholds, and a novel federated-aware evaluation metric.
-        </p>
-      </div>
+    <footer class="site-footer">
+      &copy; 2026 Anik Pramanik &middot; Last updated March 2026
+    </footer>
 
-      <div class="project-card">
-        <h3>Transportation Equity Optimization</h3>
-        <p>
-          Budget-allocation optimizer using LP-based rounding and bipartite matching to maximize
-          equity across 5 demographic groups in Chicago; integrates ride-hailing and bus-line programs
-          (17,875 households, 649 bus stops, 20 candidate routes).
-        </p>
-      </div>
-
-      <div class="project-card">
-        <h3>Smart Building Fire Risk Analytics</h3>
-        <p>
-          Sensor-driven graph-diffusion framework combining static, dynamic (drone), and human
-          sensor streams with weighted multimodal fusion; builds room adjacency graphs modeling
-          structural and HVAC connectivity; applies k-means for real-time risk-zone classification.
-        </p>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ===== SKILLS ===== -->
-  <section class="cv-section" id="skills">
-    <h2>Technical Skills</h2>
-    <table class="skills-table">
-      <tbody>
-        <tr>
-          <td>Languages</td>
-          <td>Python, C/C++, Java, SQL</td>
-        </tr>
-        <tr>
-          <td>ML / AI</td>
-          <td>PyTorch, TensorFlow, Keras, Scikit-learn, Hugging Face Transformers, LLM Fine-tuning, RAG, Prompt Engineering, Linear Programming, Approximation Algorithms</td>
-        </tr>
-        <tr>
-          <td>Distributed Systems</td>
-          <td>Federated Learning, Slurm / HPC, Multi-GPU Training</td>
-        </tr>
-        <tr>
-          <td>Data &amp; Analytics</td>
-          <td>Pandas, NumPy, Matplotlib, Seaborn, Jupyter</td>
-        </tr>
-        <tr>
-          <td>Databases</td>
-          <td>PostgreSQL, MySQL, Oracle</td>
-        </tr>
-        <tr>
-          <td>Tools &amp; Infra</td>
-          <td>Git, Linux, Flask, Django, Docker, REST APIs</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-
-  <!-- ===== SERVICE ===== -->
-  <section class="cv-section" id="service">
-    <h2>Professional Service</h2>
-    <p class="service-text">
-      <strong>Reviewer:</strong> AAAI 2026 &middot; ACM CODASPY 2025 &middot; IEEE CIC 2025
-    </p>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="site-footer">
-    &copy; 2026 Anik Pramanik &middot; Last updated March 2026
-  </footer>
-
-</div><!-- /.site-wrapper -->
+  </main>
+</div>
 
 </body>
 </html>
