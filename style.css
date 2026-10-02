@@ -31,6 +31,7 @@ a:hover { color: var(--maroon-deep); }
 .sidebar-links a { display: flex; justify-content: space-between; padding: 3px 0; color: #f1d7be; font-family: Arial, Helvetica, sans-serif; font-size: 0.82rem; text-decoration: none; }
 .sidebar-links a:hover { color: #fff; }
 .sidebar-links span { color: #c59a6b; }
+.sidebar-links .cv-download { margin-top: 8px; padding-top: 10px; border-top: 1px solid rgba(243, 234, 220, 0.18); color: #f0cda7; font-weight: 700; }
 .sidebar-note { margin-top: auto; padding-top: 30px; color: #d7bfae; font-family: Arial, Helvetica, sans-serif; font-size: 0.78rem; line-height: 1.7; }
 .sidebar-note .note-label { display: block; margin-bottom: 5px; color: #d8b997; }
 
@@ -80,17 +81,18 @@ a:hover { color: var(--maroon-deep); }
 
 .project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .project-card { display: flex; flex-direction: column; min-height: 238px; padding: 22px; border: 1px solid var(--line); background: rgba(251, 247, 240, 0.62); }
-.project-card.project-current { background: var(--maroon-deep); border-color: var(--maroon-deep); color: #f9efe4; }
+.project-card.project-current { background: rgba(251, 247, 240, 0.62); border-color: var(--line); border-left: 4px solid var(--gold); }
 .project-topline { display: flex; justify-content: space-between; align-items: center; margin-bottom: 26px; }
 .project-label { color: var(--gold); }
 .project-mark { color: var(--sage); font-family: Arial, Helvetica, sans-serif; font-size: 0.72rem; font-weight: 700; }
-.project-current .project-mark { color: #d7b998; }
+.project-current .project-mark { color: var(--sage); }
 .project-card h3 { margin: 0 0 11px; color: var(--maroon-deep); font-size: 1.18rem; line-height: 1.2; }
-.project-current h3 { color: #fff5e9; }
+.project-current h3 { color: var(--maroon-deep); }
 .project-card p { margin: 0; color: var(--muted); font-size: 0.9rem; line-height: 1.65; }
-.project-current p { color: #e3d3c6; }
+.project-current p { color: var(--muted); }
 .project-tags, .project-actions { display: flex; flex-wrap: wrap; gap: 8px 14px; margin-top: auto; padding-top: 23px; }
 .project-tags span { color: #e5c29c; font-family: Arial, Helvetica, sans-serif; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+.project-current .project-tags span { color: var(--maroon); }
 .project-actions a { color: var(--maroon); }
 .project-actions a:hover { color: var(--maroon-deep); }
 
